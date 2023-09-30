@@ -2,7 +2,6 @@ import Cart from '../service/Cart';
 import Book from '../domain/Book';
 import MusicAlbum from '../domain/MusicAlbum';
 import Movie from '../domain/Movie';
-import { resolvePlugin } from '@babel/core';
 
 test('add all 3', () => {
   const cart = new Cart();
